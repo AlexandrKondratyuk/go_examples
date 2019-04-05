@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test templates</title>
+</head>
+<body>
+
+<p>...Test templates...</p>
+<p>Hello, {{.Name}}</p>
+
+{{if .DBStatus}}
+    <p>DB connection is alive!</p>
+{{else}}
+    <p>DB connection is dead!</p>
+{{end}}
+
+</body>
+</html>
